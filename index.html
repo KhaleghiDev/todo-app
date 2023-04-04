@@ -17,21 +17,12 @@
 </head>
 
 <body>
-    <h1> لیست مدیریت وظایف </h1>
-
-
-
-
-
     <div class="container">
 
         <!-- nav button -->
 
         <div class="row text-center">
             <nav class="navbar navbar-expand fixed-bottom navbar-light">
-
-                
-
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="navbar-nav justify-content-center">
                         <li class="nav-item active mx=5">
@@ -53,38 +44,49 @@
 
         <!-- end nav -->
 
-
-
-
-
-
-
-
-
-
         <div class="resolt">
             <div class="container">
 
-                <div class="card">
+                <div class="card mt-3">
                     <h5 class="card-header">عنوان تسک</h5>
                     <div class="card-body">
-                        <h5 class="card-title"> دسته بندی</h5>
-                        <p class="card-text"> شخصی </p>
-                        <a href="#" class="btn btn-primary"><i class="bi bi-pencil-square"></i></a>
-                        <a href="#" class="btn btn-danger"><i class="bi bi-trash"></i></a>
-                        <a href="#" class="btn btn-success"><i class="bi bi-check"></i></a>
-
-
+                        <div class="row">
+                            <div class="col-7">
+                                <p class="card-title px-2"><strong>دسته بندی</strong> </p>
+                                <p class="card-text px-3"> شخصی </p>
+                            </div>
+                            <div class="col-3">
+                                <a href="#" class="btn btn-primary"><i class="bi bi-pencil-square"></i></a>
+                                <a href="#" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                                <a href="#" class="btn btn-success"><i class="bi bi-check"></i></a>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
+                <div class="card mt-3">
+                    <h5 class="card-header p-2 "><s>عنوان تسک</s></h5>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-7">
+                                <p class="card-title px-2"><strong>دسته بندی</strong> </p>
+                                <p class="card-text px-3"> تعریف نشده </p>
+                            </div>
+                            <div class="col-3">
+                                <a href="#" class="btn btn-primary"><i class="bi bi-pencil-square"></i></a>
+                                <a href="#" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                                <a href="#" class="btn btn-dark"><i class="bi bi-x"></i></a>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
             </div>
         </div>
         <div class="addTask fixed-bottom mb-5">
             <form class="row g-3">
                 <div class="col-8">
-                  <input type="text"  class="form-control " id="" placeholder="فکر آزاد ">
+                    <input type="text" class="form-control " id="" placeholder="فکر آزاد ">
                 </div>
                 <div class="col-2">
                     <select class="form-select " aria-label="example">
@@ -92,19 +94,16 @@
                         <option value="1">شخصی</option>
                         <option value="2">کاری</option>
                         <option value="3">ورزش</option>
-                      </select>
+                    </select>
                 </div>
                 <div class="col-auto">
                     <button type="submit" class="btn btn-primary mb-3"><i class="bi bi-plus"></i></button>
-                  </div>
-                 
                 </div>
-                
-                </form>
 
-
-            </div>
         </div>
+        </form>
+    </div>
+    </div>
     </div>
 
 
